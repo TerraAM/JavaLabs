@@ -1,0 +1,11 @@
+янв. 23, 2024 8:06:26 PM mydb.Mydb0 Mydb0Create
+SEVERE: Exception
+java.io.FileNotFoundException: prop\mydb.properties (Системе не удается найти указанный путь)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at myConnect.Connect.getConnection(Connect.java:14)
+	at mydb.Mydb0.Mydb0Create(TestMydb0.java:30)
+	at mydb.TestMydb0.main(TestMydb0.java:22)
+
